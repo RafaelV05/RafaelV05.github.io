@@ -1,20 +1,30 @@
-CS 499 Milestone Three Narrative
+# Enhancement Three
+## Databases
 
-Enhancement Three: Databases
+[Home](README.md)
 
-For this enhancement, I continued using my Travlr Getaways full-stack travel booking application that I originally developed in CS 465 Full Stack Development. The application uses a Node.js and Express backend, MongoDB for data storage, and an Angular administrative interface. The system allows users to browse travel packages, manage bookings, and store itinerary information within a MongoDB database. I selected this artifact because it already contained a functional database implementation and provided a strong foundation for demonstrating database-focused improvements related to performance, data integrity, and scalability.
+## Enhancement Summary
 
-I selected this artifact because it demonstrates several skills that are important in full stack and backend development, particularly database design and data management. The application uses MongoDB and Mongoose to store and retrieve trip and itinerary information, making it a good candidate for enhancements related to database structure and performance.
-For this enhancement, I focused on improving the database layer of the application. One of the primary improvements was the addition of indexes on frequently queried fields such as trip codes, user email addresses, and booking status values. These indexes help improve database efficiency by allowing MongoDB to locate records more quickly as the amount of stored data grows.
-I also strengthened data validation throughout the application. Validation rules were added to ensure that required fields are present, numeric values remain within acceptable ranges, and booking status values are limited to approved options. Additional validation was implemented within the controller logic to prevent invalid data from being written to the database. These improvements help maintain data integrity and reduce the likelihood of inconsistent records.
-Another enhancement involved improving the structure of itinerary documents. The database design was expanded through the use of nested schemas that organize traveler, trip, hotel, flight, and cruise information into logical sections. This structure better reflects real-world travel booking relationships and improves maintainability by keeping related information grouped together within a single document.
-In addition to the database improvements, I added professional documentation throughout the database models and controllers. File headers, schema descriptions, and function-level comments were included to improve readability and make future maintenance easier.
+This enhancement focused on improving database performance, validation, and data integrity.
 
-I believe I successfully met the outcomes that I identified in Module One. The enhancement supports Outcome Three by improving how data is structured, validated, and retrieved within the application. The addition of indexes and improved schema design demonstrates the use of computing practices and database design principles to create a more efficient solution.
-The enhancement also supports Outcome Four by demonstrating the use of industry-standard tools and techniques for database optimization. MongoDB indexes, Mongoose validation rules, and structured document design were used to improve the overall quality of the application. At this time, I do not have any significant changes to my outcome-coverage plan because the completed enhancement aligns closely with the goals that were originally proposed.
+Implemented improvements included:
 
-One of the biggest things I learned during this enhancement was the importance of balancing functionality with long-term maintainability. The original application worked correctly, but there were several opportunities to improve how data was organized and validated. Through this process, I gained a better understanding of how database design decisions can affect performance, scalability, and data quality.
-I also learned more about how MongoDB indexes can be used to optimize queries. While the application does not currently contain a massive amount of data, implementing indexes now helps prepare the system for future growth and demonstrates how database performance can be improved through proper design.
-One challenge I encountered was ensuring that schema modifications did not break existing application functionality. During development, I carefully tested the application after each enhancement to verify that trip management, booking creation, itinerary retrieval, and checkout functionality continued to operate correctly. This incremental testing process helped identify issues early and prevented larger problems from appearing later in development.
-Overall, this enhancement strengthened both the technical quality of the application and my understanding of database design. It demonstrated how thoughtful improvements to validation, indexing, and document structure can make an application more reliable, scalable, and maintainable while preserving existing functionality.
+- MongoDB Indexes
+- Schema Validation
+- Enum Constraints
+- Improved Database Structure
 
+## Skills Demonstrated
+
+- Database Design
+- Data Validation
+- Performance Optimization
+- Data Integrity
+
+## Files
+
+[Enhanced Artifact](artifacts/enhancement3/Enhanced3.zip)
+
+## Narrative
+
+(Link to narrative document)
