@@ -10,7 +10,7 @@ Password: admin
 
 CUSTOMER TEST(Express)
 Email: test3@gmail.com
-Password:test3
+Password: test3
 
 Admin access is controlled through the user role field in MongoDB.
 
