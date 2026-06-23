@@ -26,4 +26,4 @@ Implemented improvements included:
 
 ## Narrative
 
-(Link to narrative document)
+[Narrative PDF](narratives/Enhancement%20Two_%20Algorithms%20and%20Data%20Structures.pdf)
