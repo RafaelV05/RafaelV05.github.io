@@ -27,4 +27,4 @@ Implemented improvements included:
 
 ## Narrative
 
-(Link to narrative document)
+[Narrative PDF](narratives/Enhancement%20Three_%20Databases.pdf)
