@@ -27,4 +27,4 @@ Implemented improvements included:
 
 ## Narrative
 
-[Narrative PDF](narratives/Enhancement%20One_Software%20Design%20and%20Engineering.pdf)
+[Narrative PDF](narratives/Enhancement%20One_%20Software%20Design%20and%20Engineering.pdf)
