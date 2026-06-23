@@ -27,4 +27,4 @@ Implemented improvements included:
 
 ## Narrative
 
-(Link to narrative document)
+[View Narrative](narratives/Enhancement1-SoftwareEngineering.pdf)
